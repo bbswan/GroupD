@@ -1,5 +1,1 @@
-git clone orignal_images
-cd your-repository
-git rm -r path/to/your/folder
-git commit -m "Degit push origin main  # 假设你的主要分支是main
-leted the folder"
+
