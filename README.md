@@ -19,7 +19,7 @@ This project aims to develop an AI model tailored specifically for waste classif
   -  塑膠袋 50
   -  廢紙 50
  
-* Test: 300(processed_images)
+* Test(processed_images):300
   (contains 6 classes)
   -  一般垃圾 50
   -  一般資源回收 50
