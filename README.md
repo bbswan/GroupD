@@ -10,23 +10,23 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## File Structure
 
-* Train(orignal_images): 300
+* Train(orignal_images): 5112
   (contains 6 classes)
-  -  一般垃圾 50
-  -  一般資源回收 50
-  -  保麗龍 50
-  -  紙容器 50
-  -  塑膠袋 50
-  -  廢紙 50
+  -  一般垃圾 1074
+  -  一般資源回收 1398
+  -  保麗龍 496
+  -  紙容器 376
+  -  塑膠袋 1300
+  -  廢紙 468
  
-* Test(processed_images):300
+* Test(processed_images): 5112
   (contains 6 classes)
-  -  一般垃圾 50
-  -  一般資源回收 50
-  -  保麗龍 50
-  -  紙容器 50
-  -  塑膠袋 50
-  -  廢紙 50
+  -  一般垃圾 1074
+  -  一般資源回收 1398
+  -  保麗龍 496
+  -  紙容器 376
+  -  塑膠袋 1300
+  -  廢紙 468
 
 ## Analysis
 
