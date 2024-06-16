@@ -10,17 +10,23 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## File Structure
 
---------------------------------------------------------------------
-* Total: 2527 (contains 6 classes)
-  -  Glass 501
-  -  Paper 594
-  -  Cardboard 403
-  -  Plastic 482
-  -  Metal 410
-  -  Non-recyclable Trash 137
-
-* Train/Val/Test set: 70/13/17
-* Data Augmentation
+* Train(orignal_images): 300
+  (contains 6 classes)
+  -  一般垃圾 50
+  -  一般資源回收 50
+  -  保麗龍 50
+  -  紙容器 50
+  -  塑膠袋 50
+  -  廢紙 50
+ 
+* Test: 300(processed_images)
+  (contains 6 classes)
+  -  一般垃圾 50
+  -  一般資源回收 50
+  -  保麗龍 50
+  -  紙容器 50
+  -  塑膠袋 50
+  -  廢紙 50
 
 ## Analysis
 
