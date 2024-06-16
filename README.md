@@ -10,7 +10,21 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## File Structure
 
-[Describe the file structure of your project, including how the files are organized and what each file contains. Be sure to explain the purpose of each file and how they are related to one another.]
+.
+├── ...
+├── data                    
+    ├── train.csv           # Original training set decomposed into feature set
+    ├── test.csv            # Testing signal decomposed into feature set
+    └── results.csv         # Modeling results prepared for submission
+│── notebooks
+    └── earthquake.ipynb    # Misc
+├── earthquake
+    ├── config.py           # Configuration parameters    
+    ├── ga.py               # GA for feature selection
+    ├── generator.py        # Feature engineering
+    ├── submission.py       # Make prediction and prepare file for submission
+    └── utils.py            # Helpers
+└── ...
 
 ## Analysis
 
