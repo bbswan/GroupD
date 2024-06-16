@@ -10,21 +10,17 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## File Structure
 
-.
-├── ...
-├── data                    
-    ├── train.csv           # Original training set decomposed into feature set
-    ├── test.csv            # Testing signal decomposed into feature set
-    └── results.csv         # Modeling results prepared for submission
-│── notebooks
-    └── earthquake.ipynb    # Misc
-├── earthquake
-    ├── config.py           # Configuration parameters    
-    ├── ga.py               # GA for feature selection
-    ├── generator.py        # Feature engineering
-    ├── submission.py       # Make prediction and prepare file for submission
-    └── utils.py            # Helpers
-└── ...
+--------------------------------------------------------------------
+* Total: 2527 (contains 6 classes)
+  -  Glass 501
+  -  Paper 594
+  -  Cardboard 403
+  -  Plastic 482
+  -  Metal 410
+  -  Non-recyclable Trash 137
+
+* Train/Val/Test set: 70/13/17
+* Data Augmentation
 
 ## Analysis
 
