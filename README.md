@@ -6,7 +6,9 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## Getting Started
 
-[Provide instructions on how to get started with your project, including any necessary software or data. Include installation instructions and any prerequisites or dependencies that are required.]
+To get the local copy of this repository, please run the following commands on your terminal:
+
+```git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
 
 ## File Structure
 
