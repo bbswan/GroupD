@@ -21,11 +21,12 @@ https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ
 
 https://colab.research.google.com/drive/1bs236qO3KR6_YBC5Hy3vBbrgmuBYXb46?usp=sharing
   - Make a copy and run our project on the copy
+
 By following these steps, you can easily set up and run your project on Google Colab.
 
 ## File Structure
 
-For more data, please visits: 
+For more data, please visit: 
 https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ
 
 * Train(orignal_images): 5112
