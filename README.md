@@ -15,7 +15,9 @@ Navigate to Google Colab in your web browser.
 
 - Clone the Repository
 In a new Colab notebook, run the following cell to clone the repository:
+
 ```!git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
+
 ```%cd GroupD_Taiwan-Waste-Classifier```
 
 * Install Dependencies
