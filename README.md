@@ -12,19 +12,9 @@ Ensure you have a Google account to access Google Colab.
 * Running on Google Colab
 - Open Google Colab
 Navigate to Google Colab in your web browser.
+open the **model_Trash_Classifier.ipynb** by clicking the link below:
 
-- Clone the Repository
-In a new Colab notebook, run the following cell to clone the repository:
-
-```!git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
-
-```%cd model_Trash_Classifier.ipynb```
-
-* Install Dependencies
-  
-```!pip install tensorflow numpy matplotlib pillow scikit-learn torchvision```
-
-* 
+```https://colab.research.google.com/github/bbswan/GroupD_Taiwan-Waste-Classifier/blob/main/model_Trash_Classifier.ipynb```
 
 By following these steps, you can easily set up and run your project on Google Colab without needing to configure a local environment.
 
