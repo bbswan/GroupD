@@ -9,14 +9,19 @@ This project aims to develop an AI model tailored specifically for waste classif
 * Prerequisites
   - Ensure you have a Google account to access Google Colab.
 
+* Prepare Data 
+  - Download `original_data` and `preprocessed_data` using the following link:
+
+https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ
+
 * Running on Google Colab
   - Open Google Colab
   - Navigate to Google Colab in your web browser.
   - open the **model_Trash_Classifier.ipynb** by clicking the link below:
 
-https://colab.research.google.com/github/bbswan/GroupD_Taiwan-Waste-Classifier/blob/main/model_Trash_Classifier.ipynb
-
-By following these steps, you can easily set up and run your project on Google Colab without needing to configure a local environment.
+https://colab.research.google.com/drive/1bs236qO3KR6_YBC5Hy3vBbrgmuBYXb46?usp=sharing
+  - Make a copy and run our project on the copy
+By following these steps, you can easily set up and run your project on Google Colab.
 
 ## File Structure
 
