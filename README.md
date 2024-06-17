@@ -96,8 +96,8 @@ Future work could involve expanding the dataset and categories, refining perform
 
 ## Contributors
 
-- 謝宜蓁
-- 鄒宸萱
+- 謝宜蓁 Coding, Coding, project discussion
+- 鄒宸萱 Coding, project discussion, project presentation
 - 韋欣 Dataset collection, project methodology discussion, booth poster design
 - 胡裔婕 Project ideation, dataset collection, presentation slide design
 - 李聖悅 Dataset collection, project methodology discussion, project presentation
