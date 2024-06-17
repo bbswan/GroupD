@@ -46,11 +46,42 @@ The folders 'original_images' and 'processed_images' serve as examples. For the 
 To address the specific needs of waste classification in Taiwan, we employed a convolutional neural network (CNN) architecture. The key steps in our analysis included:<br/>
 
 - Data Collection and Preprocessing: We collected images of waste from various sources, focusing on six categories of garbage in Taiwan: cardboard, glass, metal, paper, plastic, and trash. Each image was resized to 32x32 pixels and converted to tensors for neural network processing.<br/>
-- Model Architecture: We built a CNN using the Sequential API in Keras. The model included convolutional layers to extract features from the images, pooling layers to reduce spatial dimensions, and fully connected layers to perform the final classification. A softmax activation function was applied in the output layer to produce probability scores for each category.<br/>
+```
+IMG_HEIGHT = 32
+IMG_WIDTH = 32
+batch_size = 32
+```
+- Model Architecture: We built a CNN using the Sequential API in Keras. The model included convolutional layers to extract features from the images, pooling layers to reduce spatial dimensions, and fully connected layers to perform the final classification. <br/>
+```
+# 構建神經網絡模型
+model = Sequential()
+
+# 卷積層和池化層
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', input_shape=(IMG_HEIGHT, IMG_WIDTH, 3), activation='relu'))
+model.add(MaxPooling2D(pool_size=2))
+
+model.add(Conv2D(64, kernel_size=(3,3), padding='same', activation='relu'))
+model.add(MaxPooling2D(pool_size=2))
+
+model.add(Conv2D(32, kernel_size=(3,3), padding='same', activation='relu'))
+model.add(MaxPooling2D(pool_size=2))
+
+# 平坦層和全連接層
+model.add(Flatten())
+
+model.add(Dense(64, activation='relu'))
+model.add(Dropout(0.2))
+model.add(Dense(32, activation='relu'))
+model.add(Dropout(0.2))
+model.add(Dense(6, activation='softmax'))  # 輸出層為 6 個類別
+```
+
 - Training and Evaluation: The model was trained on a dataset split into training and validation sets. Metrics such as test accuracy, test loss, and the confusion matrix were used to evaluate the model.<br/><br/>
 
 From our analysis, we gained several key insights:<br/>
 - Model Accuracy: The final test accuracy of 72.21% demonstrates that our model performs well in classifying various types of waste according to Taiwan's specific categories. This high level of accuracy indicates that the model can effectively support waste sorting processes.<br/>
+<img width="1470" alt="Screenshot 2024-06-17 at 11 35 20 PM" src="https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier/assets/172978438/09ccea41-9eb8-4469-b520-fddc4b444e1a">
+
 - Error Analysis: The confusion matrix and classification report highlighted specific categories where the model performed exceptionally well, such as general recycling, styrofoam, and plastic bags. However, it also revealed areas where improvements are needed.<br/>
 
 ## Results
@@ -76,7 +107,7 @@ We would like to express our sincere gratitude to the following individuals for 
 
 Pien, Chung-Pei (Professor): We are deeply grateful to professor Pien for providing guidance and mentorship throughout the project. Your expertise and insights were instrumental in shaping our approach and ensuring the success of this project.
 
-Ian Huang (Teaching Assistant): We are very grateful to Ian for his unwavering support and guidance throughout the coding process.
+Ian Huang (Teaching Assistant): We are very grateful to Ian for his unwavering support and guidance throughout the coding process, answering any questions we raised. 
 
 The Kaggle Community: We would like to acknowledge the open-source community and the valuable resources they have created, which served as the foundation for our work. Specifically, we utilized some datasets from other creators for an increased accuracy.
 
