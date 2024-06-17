@@ -24,10 +24,10 @@ In a new Colab notebook, run the following cell to clone the repository:
 * Prepare Data
 ```!pip install gdown```
 
-# Download original_images
+Download original_images
 ```!gdown --folder https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ```
 
-# Verify that the images have been downloaded
+Verify that the images have been downloaded
 ```!ls original_images```
 ```!ls processed_images```
 
