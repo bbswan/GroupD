@@ -116,11 +116,11 @@ The Kaggle Community: We would like to acknowledge the open-source community and
 ## References
 
 Dataset sources (for non-Taiwanese trash):<br/>
-https://www.kaggle.com/datasets/mostafaabla/garbage-classification
-https://www.kaggle.com/datasets/ashwinshrivastav/most-common-recyclable-and-nonrecyclable-objects
-https://www.kaggle.com/code/farzadnekouei/imbalanced-garbage-classification-resnet50
+https://www.kaggle.com/datasets/mostafaabla/garbage-classification <br/>
+https://www.kaggle.com/datasets/ashwinshrivastav/most-common-recyclable-and-nonrecyclable-objects <br/>
+https://www.kaggle.com/code/farzadnekouei/imbalanced-garbage-classification-resnet50 <br/><br/>
   
 Research sources:<br/>
-https://news.pts.org.tw/article/488630
-https://www.nyckel.com/pretrained-classifiers/recycling-identifier/
-https://www.taiwanwatch.org.tw/node/1385
+https://news.pts.org.tw/article/488630 <br/>
+https://www.nyckel.com/pretrained-classifiers/recycling-identifier/ <br/>
+https://www.taiwanwatch.org.tw/node/1385 <br/>
