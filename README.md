@@ -11,8 +11,9 @@ To get the local copy of this repository, please run the following commands on y
 ```git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
 
 ## File Structure
-* For more data, please visits:
-- https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ
+
+For more data, please visits:
+`https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ`
 
 * Train(orignal_images): 5112
   (contains 6 classes)
