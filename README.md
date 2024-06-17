@@ -6,9 +6,32 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 ## Getting Started
 
-To get the local copy of this repository, please run the following commands on your terminal:
+* Prerequisites
+Ensure you have a Google account to access Google Colab.
 
-```git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
+* Running on Google Colab
+- Open Google Colab
+Navigate to Google Colab in your web browser.
+
+- Clone the Repository
+In a new Colab notebook, run the following cell to clone the repository:
+```!git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
+```%cd GroupD_Taiwan-Waste-Classifier```
+
+* Install Dependencies
+```!pip install tensorflow numpy matplotlib pillow scikit-learn torchvision```
+
+* Prepare Data
+```!pip install gdown```
+
+# Download original_images
+```!gdown --folder https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ```
+
+# Verify that the images have been downloaded
+```!ls original_images```
+```!ls processed_images```
+
+By following these steps, you can easily set up and run your project on Google Colab without needing to configure a local environment.
 
 ## File Structure
 
