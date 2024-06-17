@@ -80,7 +80,7 @@ model.add(Dense(6, activation='softmax'))  # 輸出層為 6 個類別
 
 From our analysis, we gained several key insights:<br/>
 - Model Accuracy: The final test accuracy of 72.21% demonstrates that our model performs well in classifying various types of waste according to Taiwan's specific categories. This level of accuracy indicates that the model can effectively support waste sorting processes.<br/>
-![3549E8C4-EE2F-4F13-9737-D5292898FA3D_1_201_a](https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier/assets/172978438/55eeb087-4839-46a6-969d-3283bb9835bf =250x250)
+![3549E8C4-EE2F-4F13-9737-D5292898FA3D_1_201_a](https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier/assets/172978438/55eeb087-4839-46a6-969d-3283bb9835bf=250x250)
 
 - Error Analysis: The confusion matrix and classification report highlighted specific categories where the model performed exceptionally well, such as general recycling, styrofoam, and plastic bags. However, it also revealed areas where improvements are needed.<br/>
 ![F2140EDE-3F9A-4385-AFAA-E548FB8966C1_1_201_a](https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier/assets/172978438/8861cb91-afb3-4725-b22a-6407729f5266)
