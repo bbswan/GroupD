@@ -7,7 +7,7 @@ This project aims to develop an AI model tailored specifically for waste classif
 ## Getting Started
 
 * Prerequisites
-Ensure you have a Google account to access Google Colab.
+  - Ensure you have a Google account to access Google Colab.
 
 * Running on Google Colab
   - Open Google Colab
