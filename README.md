@@ -21,9 +21,7 @@ This project aims to develop an AI model tailored specifically for waste classif
 By following these steps, you can easily set up and run your project on Google Colab.
 
 ## File Structure
-
-For more data, please visit: 
-https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ
+The folders 'original_images' and 'processed_images' serve as examples. For the complete dataset, please visit our Google drive at https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ.
 
 * Train(orignal_images): 5112
   (contains 6 classes)
