@@ -18,7 +18,7 @@ In a new Colab notebook, run the following cell to clone the repository:
 
 ```!git clone https://github.com/bbswan/GroupD_Taiwan-Waste-Classifier.git```
 
-```%cd GroupD_Taiwan-Waste-Classifier```
+```%cd model_Trash_Classifier.ipynb```
 
 * Install Dependencies
   
