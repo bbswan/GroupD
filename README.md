@@ -116,7 +116,7 @@ The developed AI model tailored for waste classification in Taiwan achieved a fi
 
 By enabling precise waste classification at the source, the model addresses Taiwan's need for accurate identification aligned with local waste types and regulations. This can prevent the downgrading of recyclable materials and ensure proper recycling practices, leading to an increase in recycling rates, reduction in landfill use, and lower processing costs at recycling facilities, contributing to Taiwan's environmental sustainability and circular economy efforts.
 
-Future work could involve expanding the dataset and categories, refining performance for lower-accuracy categories, and integrating the model into existing waste management systems or user-friendly applications to facilitate broader adoption and impact for all residents in Taiwan.
+Future work could involve **expanding the dataset** and categories, improving accuracy with **transfer learning** , and integrating the model into existing waste management systems or user-friendly applications to facilitate broader adoption and impact for all residents in Taiwan.
 
 ## Contributors
 
