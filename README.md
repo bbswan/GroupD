@@ -23,7 +23,7 @@ By following these steps, you can easily set up and run your project on Google C
 * Install Dependencies<br/>
   - Prerequisites: make sure you have the following software and libraries installed:<br/>
 TensorFlow, Keras (part of TensorFlow),scikit-learn, PIL (Python Imaging Library), SciPy, NumPy, Matplotlib, PyTorch, Torchvision<br/><br/>
-- Install the verify required Python libraries:<br/>
+- Install and verify required Python libraries:<br/>
 ```
 import tensorflow as tf
 #import tensorflow.contrib.keras as keras
