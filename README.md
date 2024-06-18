@@ -20,6 +20,31 @@ This project aims to develop an AI model tailored specifically for waste classif
 
 By following these steps, you can easily set up and run your project on Google Colab.
 
+* Install Dependencies<br/>
+- Prerequisites<br/>
+Ensure you have the following software and libraries installed:<br/>
+TensorFlow, Keras (part of TensorFlow),scikit-learn, PIL (Python Imaging Library), SciPy, NumPy, Matplotlib, PyTorch, Torchvision<br/><br/>
+- Install the verify required Python libraries:<br/>
+```
+import tensorflow as tf
+#import tensorflow.contrib.keras as keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2D
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from sklearn.metrics import classification_report,confusion_matrix
+from PIL import Image
+from pathlib import Path
+import scipy
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+from torchvision.datasets import ImageFolder
+import torchvision.transforms as T
+
+print("Done with library declaration, Current version of Tensorflow is: ", tf.__version__)
+```
+
+
 ## File Structure
 The folders 'original_images' and 'processed_images' serve as examples. For the complete dataset, please visit the Google drive at https://drive.google.com/drive/folders/1-1xCiUErjF-nEyUobdbqsEdGfIY-ZnoZ.
 
