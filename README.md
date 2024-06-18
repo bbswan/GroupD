@@ -21,7 +21,7 @@ This project aims to develop an AI model tailored specifically for waste classif
 By following these steps, you can easily set up and run your project on Google Colab.
 
 * Install Dependencies<br/>
-- Prerequisites<br/>
+ - Prerequisites<br/>
 Ensure you have the following software and libraries installed:<br/>
 TensorFlow, Keras (part of TensorFlow),scikit-learn, PIL (Python Imaging Library), SciPy, NumPy, Matplotlib, PyTorch, Torchvision<br/><br/>
 - Install the verify required Python libraries:<br/>
